@@ -58,12 +58,24 @@
 		</section>
 		<footer>
 			<h2 id="contact">Faire un retour</h2>
-			<form>
-				<input placeholder="Pseudo">
-				<input placeholder="E-mail">
-				<textarea placeholder="Votre message ici..."></textarea>
-				<button>Envoyer</button>
-			</form>
+			<form method="POST" action="formulaire_de_contact.php">
+				<ul>
+				 <li>
+				   <label for="name">Pseudo:</label>
+				   <input type="text" name="user_name" autocomplete="off">
+				 </li>
+				 <li>
+				   <label for="mail">E-mail:</label>
+				   <input type="email"  name="user_email" autocomplete="off">
+				 </li>
+				 <li>
+				   <label for="msg">Message:</label>
+				   <textarea  name="user_message"></textarea>
+				 </li>
+				  
+				  <li><button type="submit" name="valider">Envoyer</button></li>
+				</ul>
+			   </form>
 			<div id="deuxiemeTrait"></div>
 			<div id="copyrightEtIcons">
 				<div id="copyright">
