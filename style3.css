@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+body {
+    background:#111;
+    color:#fff;
+    font-family:"Open Sans",sans-serif,'Fjalla One';
+    padding: 0;
+    margin: 0;
+  }
+  .download-btn {
+    width:200px;
+    height:60px;
+    text-align:center;
+    cursor:pointer;
+    margin:20px 0px;
+    border-radius:10px;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .download-btn.btn-1 {
+    border:5px solid #939393;
+  }
+
+  .download-btn div {
+    width:100%;
+    height:100%;
+    font-size:15px;
+    font-weight:600;
+    text-transform:uppercase;
+    line-height:50px;
+    
+  }
+  .download-btn.btn-1 .top {
+    background:#939393;
+    color: white;
+  }
+  
+  .download-btn .bottom {
+    background:#B73434;
+    color:white;
+  }
+  .download-btn .top {
+    transition:all 300ms ease-in-out;
+  }
+  .download-btn:hover .top {
+    margin-top:-50px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    pad: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: white;
+}
+ul{
+    margin: 0;
+    pad: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: #B73434;
+}
+/* ******************** NAVBAR ********************  */
+nav{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    opacity: 0.75;
+}
+header li{
+    float: right;
+    font-size: 1.5em;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+    
+}
+#logo{
+    font-weight: bold;
+    float: left;
+    font-size: 1.5em;
+}
+/* ******************** IMAGE PRINCIPALE ********************  */
+#imagePrincipale{
+    padding-top: 60px;
+    background: url(media/image-principale.jpg) no-repeat fixed 50% 40%;
+    background-size: cover;
+    height: 799px;
+}
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    color: #e0dfdc;
+}
+#premierTrait{
+    height: 1px;
+    width: 15%;
+    margin: -10px auto;
+    background-color: #DCDCDC;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    box-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: #e0dfdc;
+}
+h3{
+    text-align: center;
+    color: #DCDCDC;
+    font-size: 1.7em;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    color: #e0dfdc;
+}
+/* ******************** PRESENTATION ********************  */
+#presentation{
+    background-color: #0C0C0C;
+    padding: 10px 0px 100px 0;
+}
+#texteIntro{
+    padding: 20px 20%;
+    color: #DCDCDC;
+}
+#prestations{
+    color: #DCDCDC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 30%;
+}
+.imagesPrestations h4{
+    text-align: left;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestations p{
+    float: right;
+}
+.imagesPrestations img{
+    border:1px solid white;
+}
+#interTrait1{
+    height: 1px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #DCDCDC;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    box-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020;
+    color: #e0dfdc;
+}
+/* ******************** RESSOURCES ********************  */
+#ressources{
+    height: 1400px;
+    background-color: #101010;
+    padding: 1px 2%;
+}
+#ressources h2{
+    padding-top: 60px;
+    color: #DCDCDC;
+}
+#jeux{
+    background: url(media/lesjeux.jpg);
+}
+#logiciels{
+    background: url(media/leslogiciels.jpg);
+}
+#packs{
+    background: url(media/lespacks.jpg);
+}
+#mods{
+    background: url(media/lesmods.jpg);
+}
+#ressources li{
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#ressources p{
+    height: 45px;
+    width: 235px;
+    background-color: #939393;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    border: 3px solid #B73434;
+    color: white;
+}
+#ressources #logiciels, #ressources #mods{
+    float: right;
+}
+#logiciels p, #mods p{
+    float: left;
+    margin-left: -180px;
+}
+/* ******************** FOOTER ********************  */
+footer{
+    background-color: #100E0E;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #939393;
+}
+button:hover{
+    background-color: #B73434;
+    color: white;
+    cursor: pointer;
+    transition: 0.35s ease-in-out;
+}
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: white;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+
+}
+#icons a{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: white;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
